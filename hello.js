@@ -1,3 +1,5 @@
-const _ = require('lodash')
+console.log('------------ args ----------------')
+console.log(process.argv)
 
-console.log('Hello, ' + _.capitalize('javascript'))
+const name = process.argv[2]
+console.log('Hello, ' + name)
